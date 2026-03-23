@@ -1,5 +1,8 @@
-import { NAV_ITEMS } from "./../../Store/data";
+// impoerted from react
 import { useState } from "react";
+
+// imported from local
+import { TABS } from "../../assets/Store/data";
 
 const Navbar = () => {
   const [active, setActive] = useState(1);
@@ -9,9 +12,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#1A3C34]/85 w-full absolute bottom-0 left-0 border-t border-t-[#E9C46A] shadow-[0px_-10px_15px_-3px_rgba(0,0,0,0.2)] px-6 py-2">
+    <nav className=" bg-[#1A3C34]/85 border-t border-t-[#E9C46A] shadow-[0px_-10px_15px_-3px_rgba(0,0,0,0.2)] px-6 py-2">
       <ul className="flex justify-between items-center">
-        {NAV_ITEMS.map((item) => (
+        {TABS.map((item) => (
           <li key={item.id} onClick={() => handleActive(item.id)}>
             <a
               href="#"

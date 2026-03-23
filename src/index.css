@@ -2,5 +2,47 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #e9c46a;
+  /* --- 1. Alias Layer (The "Single Source of Truth") --- */
+  --primary: #1a3c34; /* Deep Forest Green */
+  --accent: #e9c46a; /* Golden Glow */
+  --neutral: #faf9f6; /* Off-White / Cream */
+
+  /* --- 2. Primary Shades (Relative to --primary) --- */
+  --color-primary-50: oklch(from var(--primary) 0.96 0.01 h);
+  --color-primary-100: oklch(from var(--primary) 0.89 0.03 h);
+  --color-primary-200: oklch(from var(--primary) 0.78 0.05 h);
+  --color-primary-300: oklch(from var(--primary) 0.65 0.06 h);
+  --color-primary-400: oklch(from var(--primary) 0.52 0.07 h);
+  --color-primary-500: var(--primary);
+  --color-primary-600: oklch(from var(--primary) 0.28 0.05 h);
+  --color-primary-700: oklch(from var(--primary) 0.22 0.04 h);
+  --color-primary-800: oklch(from var(--primary) 0.18 0.03 h);
+  --color-primary-900: oklch(from var(--primary) 0.14 0.02 h);
+  --color-primary-950: oklch(from var(--primary) 0.11 0.02 h);
+
+  /* --- 3. Accent Shades (Relative to --accent) --- */
+  --color-accent-50: oklch(from var(--accent) 0.97 0.03 h);
+  --color-accent-100: oklch(from var(--accent) 0.94 0.06 h);
+  --color-accent-200: oklch(from var(--accent) 0.91 0.1 h);
+  --color-accent-300: oklch(from var(--accent) 0.87 0.13 h);
+  --color-accent-400: oklch(from var(--accent) 0.83 0.15 h);
+  --color-accent-500: var(--accent);
+  --color-accent-600: oklch(from var(--accent) 0.68 0.14 h);
+  --color-accent-700: oklch(from var(--accent) 0.58 0.12 h);
+  --color-accent-800: oklch(from var(--accent) 0.48 0.1 h);
+  --color-accent-900: oklch(from var(--accent) 0.38 0.08 h);
+  --color-accent-950: oklch(from var(--accent) 0.28 0.06 h);
+
+  /* --- 4. Neutral Shades (Relative to --neutral) --- */
+  --color-neutral-50: oklch(from var(--neutral) 0.99 0.002 h);
+  --color-neutral-100: var(--neutral);
+  --color-neutral-200: oklch(from var(--neutral) 0.93 0.005 h);
+  --color-neutral-300: oklch(from var(--neutral) 0.86 0.008 h);
+  --color-neutral-400: oklch(from var(--neutral) 0.72 0.01 h);
+  --color-neutral-500: oklch(from var(--neutral) 0.58 0.01 h);
+  --color-neutral-600: oklch(from var(--neutral) 0.45 0.01 h);
+  --color-neutral-700: oklch(from var(--neutral) 0.35 0.01 h);
+  --color-neutral-800: oklch(from var(--neutral) 0.25 0.01 h);
+  --color-neutral-900: oklch(from var(--neutral) 0.18 0.01 h);
+  --color-neutral-950: oklch(from var(--neutral) 0.12 0.01 h);
 }

@@ -1,4 +1,4 @@
-export const Salami = ({ size = 24 }) => {
+export const SalamiIcon = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export const Salami = ({ size = 24 }) => {
   );
 };
 
-export const SalamiFilled = ({ size = 24 }) => {
+export const SalamiIconFilled = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ export const SalamiFilled = ({ size = 24 }) => {
   );
 };
 
-export const EidMubarak = ({ size }) => {
+export const EidMubarakIcon = ({ size }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export const EidMubarak = ({ size }) => {
   );
 };
 
-export const Home = ({ size = "24" }) => {
+export const HomeIcon = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export const Home = ({ size = "24" }) => {
   );
 };
 
-export const HomeFilled = ({ size = 24 }) => {
+export const HomeIconFilled = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export const HomeFilled = ({ size = 24 }) => {
   );
 };
 
-export const Wishlist = ({ size = 24 }) => {
+export const WishlistIcon = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ export const Wishlist = ({ size = 24 }) => {
   );
 };
 
-export const WishlistFilled = ({ size = 24 }) => {
+export const WishlistIconFilled = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +163,7 @@ export const WishlistFilled = ({ size = 24 }) => {
   );
 };
 
-export const Profile = ({ size = 24 }) => {
+export const UserIcon = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +182,7 @@ export const Profile = ({ size = 24 }) => {
   );
 };
 
-export const ProfileFilled = ({ size = 24 }) => {
+export const UserIconFilled = ({ size = 24 }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

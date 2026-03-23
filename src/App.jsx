@@ -1,5 +1,6 @@
-import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Tabs/Home";
+import Salamis from "./Components/Tabs/Salamis";
 
 function App() {
   return (
